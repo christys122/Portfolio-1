@@ -2,6 +2,12 @@
 
 }
 
+*{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background: hsla(10, 82%, 65%, 1);
@@ -17,27 +23,83 @@ body {
 }
 
 header {
-    padding: 25px;
-   }
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
-header h1 a {
+header h1 {
     font-weight: bold;
     margin:0;
-    color: white;
-    text-decoration: none;
+        
 }
 
 header a {
-    color:black;
     text-decoration: none;
+    color: whitesmoke;
 }
 
-header nav li {
-    display: inline;
+.avatar img {
+    height:fit-content;
+    border-radius: 35%;
+}
+
+
+nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;  
+}
+
+nav a {
+    text-decoration: none;
     font-size: large;
+    color:black;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     
 }
 
-img {
+.about-me {
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.about-me li {
+    margin-bottom: 10px;
+}
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+     
+}
+
+main div section {
+    border-radius:  15%;
     width: 200px;
+    background-color: hsla(290, 79%, 13%, .2);
+}
+
+main div .card1 {
+    width: 400px;
+    
+}
+
+div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+            
+}
+
+div .card1 img {
+    width: 400px;
+    height: 380px;
 }

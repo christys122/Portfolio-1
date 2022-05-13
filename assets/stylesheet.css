@@ -1,5 +1,7 @@
+/*set reusable theme colors*/
 :root {
-
+--whitesmoke: rgb(245, 245, 245);
+--eggplant: rgb(49, 3, 49);
 }
 
 *{
@@ -7,7 +9,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/*color and font for page*/
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background: hsla(10, 82%, 65%, 1);
@@ -21,7 +23,7 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EF745C", endColorstr="#34073D", GradientType=1 );
     
 }
-
+/*start header section*/
 header {
     margin-left: 25px;
     display: flex;
@@ -32,23 +34,22 @@ header {
 
 header h1 {
     font-weight: bold;
-    margin:0;
-        
+    margin:0;    
 }
 
 header a {
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--whitesmoke);
 }
-
+/*rounded profile picture with shadow*/
 .avatar img {
-    height:140px;
-    width: 100px;
+    height:200px;
+    width: 140px;
     border-radius: 35%;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(245, 245, 245, 1);
 }
 
-
+/*set nav links to flex for smaller screens*/
 nav ul {
     display:flex;
     flex-wrap: wrap;
@@ -56,28 +57,28 @@ nav ul {
     align-items: center;
     list-style: none;  
 }
-
+/*replace hyperlink style with theme design*/
 nav a {
     text-decoration: none;
     font-size: larger;
     font-weight: bold;
     color:black;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    text-shadow: 0 0 10px rgba(245, 245, 245, 1);
     
 }
 
 nav a:hover {
-    text-size-adjust: 30px;
+    color: var(--eggplant);
 }
 
-
+/*set design for each sections header*/
 h2 {
     padding: 10px;
     margin-left: 25px;
 }
 
 h2:hover {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 10px rgba(245, 245, 245, .5);
 }
 
 .about-me li {
@@ -87,6 +88,7 @@ h2:hover {
 .about-me ul {
     text-indent: 10px;
 }
+/*flex projects so them re-align on small screens*/
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -99,16 +101,13 @@ h2:hover {
 .projects section {
     border-radius:  15%;
     width: 200px;
-    background-color: hsla(290, 79%, 13%, .2);
-    
-    
+    background-color: hsla(290, 79%, 13%, .2); 
 }
-
+/*main project bigger than other cards*/
 .projects .card1 {
-    width: 400px;
-    
+    width: 400px;    
 }
-
+/*border for all cards*/
 .projects img {
     width: 200px;
     height: 200px;
@@ -116,11 +115,21 @@ h2:hover {
     margin: 0;          
 }
 
+.projects header {
+    color: var(--eggplant);
+    font-weight: bold;
+}
+/*aligns images with border*/
 .projects a {
     margin: 0;
 }
+
+.projects a:hover {
+opacity: .5;
+}
+/*rounded edges*/
 .projects img {
-    border-radius:  15%;
+    border-radius: 15%;
     width: 200px;
 }
 
@@ -128,26 +137,28 @@ h2:hover {
     width: 400px;
     height: 380px;
 }
-
+/*creates divider between sections*/
 .story {
-    border-top: 1px solid purple; 
+    border-top: 1px solid var(--eggplant);
 }
 
 .story p{
     font-size: large;
 }
-
+/*flex to keep header and link together*/
 .contact .links {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-   background-color: rgba(189, 105, 183, .1);
-    
-    
+   background-color: rgba(189, 105, 183, .1)    
 }
+
 .contact a {
     text-decoration: none;
     color:hsla(290, 79%, 13%, 1)
 }
-
+/*smaller footer tag*/
+h3 {
+    font-size: smaller;
+}

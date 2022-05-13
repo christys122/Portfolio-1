@@ -3,7 +3,7 @@
 }
 
 *{
-    margin: 5px;
+    margin: 10px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ header {
     margin-left: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -42,8 +42,10 @@ header a {
 }
 
 .avatar img {
-    height:fit-content;
+    height:140px;
+    width: 100px;
     border-radius: 35%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
 }
 
 
@@ -57,49 +59,92 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    font-size: large;
+    font-size: larger;
+    font-weight: bold;
     color:black;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
     
 }
 
-.about-me {
+nav a:hover {
+    text-size-adjust: 30px;
+}
+
+
+h2 {
     padding: 10px;
     margin-left: 25px;
+}
+
+h2:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .about-me li {
     margin-bottom: 10px;
 }
-main div {
+
+.about-me ul {
+    text-indent: 10px;
+}
+.projects {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-
-     
+   
 }
 
-main div section {
+.projects section {
     border-radius:  15%;
     width: 200px;
     background-color: hsla(290, 79%, 13%, .2);
+    
+    
 }
 
-main div .card1 {
+.projects .card1 {
     width: 400px;
     
 }
 
-div img {
+.projects img {
     width: 200px;
     height: 200px;
     border-radius: 15%;
+    margin:0;
             
 }
+.projects img {
+    border-radius:  15%;
+    width: 200px;
+}
 
-div .card1 img {
+.projects .card1 img {
     width: 400px;
     height: 380px;
 }
+
+.story {
+    border-top: 1px solid purple; 
+}
+
+.story p{
+    font-size: large;
+}
+
+.contact .links {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   background-color: rgba(189, 105, 183, .1);
+    
+    
+}
+.contact a {
+    text-decoration: none;
+    color:hsla(290, 79%, 13%, 1)
+}
+

@@ -24,6 +24,8 @@ Adding the CSS styling was both fun and difficult at times.  I used what I have 
 
 Utilizing Markdown, I created an interesting, detailed account of this project.  My vision, what I learned, and the process I followed.  I hope you enjoyed this as much as I have.  Please vist My Porfolio: https://christys122.github.io/Portfolio-1/
 
-//screenshot//
 
+ ```md
+    ![Porfolio1 Screenshot](assets/images/Screenshot-Webpage.png)
+    ```
 

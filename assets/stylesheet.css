@@ -30,7 +30,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
+    }
 
 header h1 {
     font-weight: bold;
@@ -41,6 +41,14 @@ header a {
     text-decoration: none;
     color: var(--whitesmoke);
 }
+
+header p {
+    font-size: smaller;
+}
+/*smaller font*/
+header span {
+    font-size: small;
+}
 /*rounded profile picture with shadow*/
 .avatar img {
     height:200px;
@@ -48,6 +56,11 @@ header a {
     border-radius: 35%;
     box-shadow: 0 0 10px rgba(245, 245, 245, 1);
 }
+/*set contact link to stay in place*/
+.avatar a {
+    position: fixed;
+}
+
 
 /*set nav links to flex for smaller screens*/
 nav ul {
@@ -94,8 +107,7 @@ h2:hover {
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
-    align-items: center;
-   
+    align-items: center;  
 }
 
 .projects section {
@@ -151,12 +163,16 @@ opacity: .5;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-   background-color: rgba(189, 105, 183, .1)    
+   background-color: rgba(189, 105, 183, .1);    
 }
 
 .contact a {
     text-decoration: none;
-    color:hsla(290, 79%, 13%, 1)
+    color:var(--eggplant); 
+}
+
+.contact p {
+    color: var(--eggplant);
 }
 /*smaller footer tag*/
 h3 {

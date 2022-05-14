@@ -1,5 +1,6 @@
 # Portfolio-1
-Challenge 2 Portfolio using HTML and Advanced CSS
+
+## Challenge 2 Portfolio using HTML and Advanced CSS
 
 I am creating th website introduce myself and to showcase my projects so far.
 
@@ -7,5 +8,7 @@ While creating this website, I have been to utilize many new skills and implemen
 
 Wireframe:
 
-// insert snapshot //
+[Wireframe for Portfolio1](/assets/images/Google%20Slide%20Mockup.png)
+
+
 

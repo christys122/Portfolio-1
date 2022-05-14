@@ -178,3 +178,12 @@ opacity: .5;
 h3 {
     font-size: smaller;
 }
+
+/*Media query for smaller screens*/
+@media screen and (max-width: 980px) {
+        .avatar a {
+            position: relative;
+        }
+    }
+        
+

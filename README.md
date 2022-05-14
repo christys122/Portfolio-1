@@ -18,7 +18,7 @@ I started with the html content to build out the outline of the webpage.  I sepa
 
 ### CSS:
 
-Adding the CSS styling was both fun and difficult at times.  I used what I have learned so far to style the page to suit me as the creator and meet the requirements of the requestor.  To match some of my lofty ideas, I utilized Google, W3, and MDM websites for references.  I learned a great deal creating this web page and found myself easily adjusting and debugging the code by the end.  In this css stylesheet you will find appropriate comments explaining the sections and what the code renders.  I utilized variables to optimize the code and had some fun with a fixed  section, shadowing, and a few hovers.
+Adding the CSS styling was both fun and difficult at times.  I used what I have learned so far to style the page to suit me as the creator and meet the requirements of the requestor.  To match some of my lofty ideas, I utilized Google, W3, and MDM websites for references.  I learned a great deal creating this web page and found myself easily adjusting and debugging the code by the end.  In this css stylesheet you will find appropriate comments explaining the sections and what the code renders.  I utilized variables to optimize the code and had some fun with a fixed  section, shadowing, and a few hovers. I added a viewport and a media query to ensure my website provides a good user experience on multiple screen sizes.
 
 ### ReadMe:
 

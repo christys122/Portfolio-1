@@ -56,7 +56,7 @@ header span {
     border-radius: 35%;
     box-shadow: 0 0 10px rgba(245, 245, 245, 1);
 }
-/*set contact link to stay in place*/
+/*set contact link to stay in place as the page scrolls*/
 .avatar a {
     position: fixed;
 }

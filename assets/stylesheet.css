@@ -28,8 +28,7 @@ header {
     margin-left: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:center
     }
 
 header h1 {
@@ -51,8 +50,8 @@ header span {
 }
 /*rounded profile picture with shadow*/
 .avatar img {
-    height:200px;
-    width: 140px;
+    height:300px;
+    width: 250px;
     border-radius: 35%;
     box-shadow: 0 0 10px rgba(245, 245, 245, 1);
 }
